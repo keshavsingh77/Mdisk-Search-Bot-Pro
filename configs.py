@@ -7,9 +7,9 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", 12345))
-    API_HASH = os.getenv("API_HASH", "26954495")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "2061c55207cfee4f106ff0dc331fe3d9")
+    API_ID = int(os.getenv("API_ID", 26954495))
+    API_HASH = os.getenv("API_HASH", "2061c55207cfee4f106ff0dc331fe3d9")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "MdiskSearchRobot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", -1002608186529))
